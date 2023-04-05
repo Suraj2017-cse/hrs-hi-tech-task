@@ -1,5 +1,5 @@
-.dropdown-toggle::after{
-    content: none !important;
+nav{
+    z-index: 1;
 }
 .bg-img{
     background-image: url('https://images.pexels.com/photos/707915/pexels-photo-707915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
@@ -7,6 +7,7 @@
     background-position: top;
     background-repeat: no-repeat;
     height: 80vh;
+    z-index: 0;
     /* position: relative; */
 }
 .bg-img::after{
