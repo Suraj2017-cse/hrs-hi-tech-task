@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- CSS  -->
     <link rel="stylesheet" href="style.css">
-    <title>About Us</title>
+    <title>DataBase</title>
 </head>
 
 <body>
@@ -61,61 +61,82 @@
 
 
 
-    <!-- Header -->
-    <header class="bg-img text-white py-5 position-relative z-0" style="height: auto;">
-        <div class="container z-1 position-relative">
-            <h2 class="display-4 animate__animated animate__flipInX">About Us</h2>
-            <p class="lead animate__animated animate__zoomIn">We're a team of professionals dedicated to providing top-notch services to our clients.</p>
+    <!-- Section -->
+
+<section class="container mt mb-4">
+    <h2 class="animate__animated animate__fadeInDown">Database </h2>
+    <p class="animate__animated animate__zoomIn">
+        A database is an organized collection of structured information, or data, typically 
+        stored electronically in a computer system. A database is usually controlled by a 
+        database management system (DBMS).
+    </p>
+    <div class="accordion" id="accordianItem" data-aos="zoom-in">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What is database and example?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordianItem">
+            <div class="accordion-body text-xl-start">
+                Databases often store information about people, such as customers or users. 
+                For example, social media platforms use databases to store user information,
+                such as names, email addresses and user behavior. The data is used to 
+                recommend content to users and improve the user experience.
+            </div>
+          </div>
         </div>
-    </header>
-
-    <main class="container mt" data-aos="fade-right">
-        <section>
-            <h2>Our Mission</h2>
-            <p>We strive to exceed our clients' expectations by delivering exceptional work and exceptional service. We
-                believe in building long-term relationships based on trust and mutual respect.</p>
-        </section>
-
-        <section class="container" data-aos="fade-down">
-            <h2>Our Team</h2>
-            <div class="row">
-              <div class="col-md-4 mb-4"  data-aos="flip-left">
-                <div class="card">
-                  <img
-                    src="https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    class="card-img-top" alt="Team member 1">
-                  <div class="card-body">
-                    <h5 class="card-title">Alok Kapoor</h5>
-                    <p class="card-text">CEO</p>
-                  </div>
-                </div>
-              </div>
-      
-              <div class="col-md-4 mb-4" data-aos="flip-down">
-                <div class="card">
-                  <img
-                    src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    class="card-img-top" alt="Team member 2">
-                  <div class="card-body">
-                    <h5 class="card-title">Disha Singh</h5>
-                    <p class="card-text">COO</p>
-                  </div>
-                </div>
-              </div>
-      
-              <div class="col-md-4 mb-4"  data-aos="flip-right">
-                <div class="card">
-                  <img src="https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    class="card-img-top" alt="Team member 3">
-                  <div class="card-body">
-                    <h5 class="card-title">Submit Ojha</h5>
-                    <p class="card-text">CTO</p>
-                  </div>
-                </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                What is DBMS in database?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordianItem">
+            <div class="accordion-body text-xl-start">
+                A database management system (or DBMS) is essentially nothing more than a 
+                computerized data-keeping system. Users of the system are given facilities 
+                to perform several kinds of operations on such a system for either 
+                manipulation of the data in the database or the management of the database 
+                structure itself.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                What is DBMS and SQL?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordianItem">
+            <div class="accordion-body text-xl-start">
+                DBMS stands for Database Management System, as we mentioned above. 
+                SQL stands for Structured Query Language. If you have lots of data that you 
+                need to store, you don't just want to keep it anywhere – then there would be 
+                no sense of what that huge amount of data means or can tell you. That's why 
+                we use a DBMS.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                What is data in SQL?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordianItem">
+              <div class="accordion-body text-xl-start">
+                A data type is an attribute that specifies the type of data that the object 
+                can hold: integer data, character data, monetary data, date and time data, 
+                binary strings, and so on. SQL Server supplies a set of system data types 
+                that define all the types of data that can be used with SQL Server.
               </div>
             </div>
-          </section>
-    </main>
+        </div>
+    </div>
+</section>
+
+    
 
 
      <!-- footer -->

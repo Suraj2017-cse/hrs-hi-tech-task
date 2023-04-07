@@ -1,5 +1,5 @@
 nav{
-    z-index: 1;
+    z-index: 99;
 }
 .bg-img{
     background-image: url('https://images.pexels.com/photos/707915/pexels-photo-707915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
@@ -7,8 +7,6 @@ nav{
     background-position: top;
     background-repeat: no-repeat;
     height: 80vh;
-    z-index: 0;
-    /* position: relative; */
 }
 .bg-img::after{
     content: "";
@@ -22,6 +20,36 @@ nav{
     z-index: 0;
 
 }
+.z-1{
+    z-index: 8;
+}
+
+.mt{
+    margin-top: 7rem;
+}
+
+
+.hoverw:hover ul{
+    display: block !important;
+}
+.hoverw ul li:hover a{
+    background-color: #000;
+    color: #FFF !important;
+}
+
+@media screen and (min-width:991px) {
+    .hoverw{
+        flex: 0 1  100%;
+    }
+    .hoverw:hover ul{
+        position: absolute;
+        left: -25px;
+    z-index: 99;
+
+    } 
+ 
+}
+
 
 
 /* footer */
@@ -30,3 +58,5 @@ nav{
     right: 10px;
     font-size: 3rem;
 }
+
+
