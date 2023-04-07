@@ -1,10 +1,4 @@
 const form = document.querySelector('.formClick');
-// let nameEl = document.getElementById('name');
-// let emailEl = document.getElementById('email');
-// let phoneEl = document.getElementById('phone');
-// let msg = document.getElementById('message');
-
-
 
 // Add an event listener for form submission
 form.addEventListener("submit", (e) => {
@@ -62,5 +56,3 @@ form.addEventListener("submit", (e) => {
 
   form.reset();
 })
-
- 
